@@ -1,0 +1,101 @@
+*{margin: 0; padding: 0; border: none;}
+@font-face{font-family: Avant; src: url(AvantGarde.otf)}
+
+/*-----------------HEADER--------------------------------*/
+header{
+	width: 100%;
+	height: 75px;
+	border-bottom: 1px #CCC solid;
+	-webkit-box-shadow: 0 2px 2px rgba(50, 50, 50, 0.15);
+	   -moz-box-shadow: 0 2px 2px rgba(50, 50, 50, 0.15);
+		-ms-box-shadow: 0 2px 2px rgba(50, 50, 50, 0.15);
+			box-shadow: 0 2px 2px rgba(50, 50, 50, 0.15);
+}
+/*---------General definitions-------*/
+.left{float: left}
+.right{float: right}
+.sprite{
+	-webkit-transition: all 0.2s ease;
+	   -moz-transition: all 0.2s ease;
+		-ms-transition: all 0.2s ease;
+			transition: all 0.2s ease;
+	background-image: url('../images/icons.png')}
+/*-----------------------------------*/
+header{
+	position: fixed;
+	background-color: #FFF;
+}
+header nav{
+	width: 80%;
+	margin: auto;
+	min-width: 600px;
+}
+
+
+header .logo img{
+	margin: 6px 12px 0px 0px;
+	position: relative;
+	float: left;
+	height: 60px;
+	-webkit-transition: all 0.2s ease;
+	   -moz-transition: all 0.2s ease;
+		-ms-transition: all 0.2s ease;
+			transition: all 0.2s ease;
+}
+
+header .logo #title{
+	font: 16px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #D3D3D3;
+	letter-spacing:-0.61px;
+	line-height: 75px;
+	-webkit-font-smoothing: antialiased;
+}
+
+header .logo span{
+	color: #F63F52;
+}
+/*--------------------*/
+
+header .social-icons ul{
+	margin-top: 19px;
+}
+header .social-icons ul li{
+	float: right;
+	margin-right: 5px;
+}
+
+header .social-icons ul li a{
+	display: block;
+	height: 37px;
+	width: 37px;
+
+}
+
+.linkedin{background-position: 0px 0px }
+.twitter{background-position: -38px 0px }
+.facebook{background-position: -76px 0px }
+.gplus{background-position: -114px 0px }
+.linkedin:hover{background-position: 0px 36px }
+.twitter:hover{background-position: -38px 36px }
+.facebook:hover{background-position: -76px 36px }
+.gplus:hover{background-position: -114px 36px }
+
+/*-------CONTAINER---*/
+.container{
+	position: relative;
+	top: 75px
+}
+
+h3{
+	font: 17px "avant", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #595959;
+	border-bottom: 1px solid #E0E0E0;
+	padding: 10px 48px;
+	height: 36px;
+	vertical-align: middle;
+}
+
+#extracto{background: url('../images/book.png') no-repeat}
+#experiencia{background: url('../images/sheet.png') no-repeat}
+#busqueda{background: url('../images/book.png') no-repeat}
+
